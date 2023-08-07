@@ -93,6 +93,16 @@ body {
   text-decoration: none;
   color: white;
 }
+.media-buttons img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  margin: 0 8px;
+}
 /* 큰 버튼 2개 */
 .profile-card .buttons {
   display: flex;
