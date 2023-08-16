@@ -109,6 +109,10 @@ body {
   align-items: center;
   margin-top: 25px;
 }
+/* a태그 밑줄없애기 */
+.buttons a {
+  text-decoration: none;
+}
 .buttons .button {
   color: white;
   font-size: 14px;
