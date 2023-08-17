@@ -7,9 +7,27 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <link rel="shortcut icon" href="ghost-regular-24.png" type="image/x-icon" />
+    <link
+      rel="shortcut icon"
+      href="images/ghost-regular-24.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>어서오세요! 캥이 프로필</title>
+    <!-- js링크복사 -->
+    <script>
+      function clip() {
+        var url = "";
+        var textarea = document.createElement("textarea");
+        document.body.appendChild(textarea);
+        url = "https://kaengee.github.io/PROFILE_kaengEE/";
+        textarea.value = url;
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+        alert("링크가 복사되었습니다! 링크를 공유해보세요❤");
+      }
+    </script>
   </head>
   <body>
     <div class="profile-card">
@@ -60,7 +78,7 @@
           <i class="bx bx-message-rounded"></i>
         </div>
         <div class="data">
-          <i class="bx bx-share"></i>
+          <i class="bx bx-share" onclick="clip()"></i>
         </div>
       </div>
     </div>
